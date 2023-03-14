@@ -13,7 +13,7 @@
     font-weight: bold; /* make the font weight bold */
     font-size: 40vh; /* adjust the font size to your liking */
     text-align: center; /* center the text within the div */
-    color: #333; /* set a color for your title */
+    color: red;/* set a color for your title */
 }
 
 .d {
