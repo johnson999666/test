@@ -3,18 +3,16 @@
         display: flex;
         justify-content: center; /* horizontally center the child elements */
         align-items: center; /* vertically center the child elements */
+    background-color: orange;
     
         
 #title {
     display: flex;
-    justify-content: center; /* horizontally center the child elements */
-    align-items: center; /* vertically center the child elements */
-    font-family: 'Roboto', sans-serif; /* use a sans-serif font */
-    font-weight: bold; /* make the font weight bold */
-    font-size: 40vh; /* adjust the font size to your liking */
-    text-align: center; /* center the text within the div */
-    color: red;/* set a color for your title */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 
 .d {
     display: flex;
@@ -26,3 +24,6 @@
 #bio {
     padding: 30px;
     flex: 1;
+    
+    
+ 
