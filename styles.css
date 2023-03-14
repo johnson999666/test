@@ -3,15 +3,19 @@
         display: flex;
         justify-content: center; /* horizontally center the child elements */
         align-items: center; /* vertically center the child elements */
+    
         
 #title {
     display: flex;
+    justify-content: center; /* horizontally center the child elements */
+    align-items: center; /* vertically center the child elements */
     font-family: 'Roboto', sans-serif; /* use a sans-serif font */
     font-weight: bold; /* make the font weight bold */
     font-size: 40vh; /* adjust the font size to your liking */
     text-align: center; /* center the text within the div */
     color: #333; /* set a color for your title */
 }
+
 .d {
     display: flex;
     flex-wrap: wrap;
