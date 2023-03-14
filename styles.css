@@ -3,15 +3,22 @@
         display: flex;
         justify-content: center; /* horizontally center the child elements */
         align-items: center; /* vertically center the child elements */
-        background-image: url('keys.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-      }
+        
 #title {
+    display: flex;
     font-family: 'Roboto', sans-serif; /* use a sans-serif font */
     font-weight: bold; /* make the font weight bold */
     font-size: 40vh; /* adjust the font size to your liking */
     text-align: center; /* center the text within the div */
     color: #333; /* set a color for your title */
 }
+.d {
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+
+}
+#bio {
+    padding: 30px;
+    flex: 1;
