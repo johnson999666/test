@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flexbox Example</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Center the title */
+      h1 {
+        text-align: center;
+      }
+      
+      /* Create a flexbox container */
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      /* Style the paragraphs within the flexbox */
+      .paragraph {
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        text-align: justify;
+      }
+      
+    </style>
   </head>
   <body>
-    <div class="container">
-      <h1 class="title">Flexbox Example</h1>
-      <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper condimentum ipsum, eu bibendum sapien eleifend vel. Donec sed felis a tellus imperdiet ultrices. Nulla non odio in ante efficitur pharetra. Sed ac lacus nec purus placerat consectetur.</p>
+    <div class="flex-container">
+      <h1>Flexbox Example</h1>
+      <div class="paragraph">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lorem vestibulum, vestibulum nisl sed, rhoncus lacus. Aliquam euismod auctor mauris id volutpat.</p>
+      </div>
+      <div class="paragraph">
+        <p>Phasellus interdum justo vel lorem hendrerit, quis ullamcorper urna faucibus. Nam gravida diam eu est vehicula tristique. Duis pulvinar sapien sit amet urna malesuada lacinia. </p>
+      </div>
     </div>
   </body>
 </html>
