@@ -8,6 +8,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #ddddff;
   }
   
 
@@ -83,4 +84,21 @@ body {
     margin: 10px;
     background-color: #f2f2f2;
   }
-  
+
+.b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+}
+
+#name{
+    text-align: right;
+}
+#jl {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    
+       
+}
