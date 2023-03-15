@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      /* Center the title */
-      h1 {
-        text-align: center;
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
       }
-      
-      /* Create a flexbox container */
-      .flex-container {
+      .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 100vh;
       }
-      
-      /* Style the paragraphs within the flexbox */
-      .paragraph {
-        width: 80%;
-        margin: 10px;
-        padding: 10px;
-        background-color: #f2f2f2;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        text-align: justify;
+      h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
       }
-      
+      p {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+      }
+      button {
+        padding: 1em;
+        background-color: #2196f3;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
-    <div class="flex-container">
-      <h1>Flexbox Example</h1>
-      <div class="paragraph">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lorem vestibulum, vestibulum nisl sed, rhoncus lacus. Aliquam euismod auctor mauris id volutpat.</p>
-      </div>
-      <div class="paragraph">
-        <p>Phasellus interdum justo vel lorem hendrerit, quis ullamcorper urna faucibus. Nam gravida diam eu est vehicula tristique. Duis pulvinar sapien sit amet urna malesuada lacinia. </p>
-      </div>
+    <div class="container">
+      <h1>Welcome to My Website</h1>
+      <p>This is some sample text that describes what this website is about.</p>
+      <button>Learn More</button>
     </div>
   </body>
 </html>
