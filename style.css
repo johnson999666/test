@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   html, body {
     height: 100%;
@@ -183,4 +186,26 @@ ul {
 
 li {
   margin-bottom: 10px;
+}
+.home {
+  position: fixed;
+  background-color: grey;
+}
+footer {
+    
+  display: flex;
+  justify-content: center; /* horizontally center the child elements */
+  align-items: center;
+  background-color: white;
+}
+h2 {
+  font-size: 2em; /* Increase font size */
+  font-weight: bold; /* Make font bold */
+  text-align: center; /* Center the text */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 0.1em; /* Add letter spacing */
+  color: #333; /* Change text color */
+  margin-top: 50px; /* Add top margin */
+  margin-bottom: 20px; /* Add bottom margin */
+  line-height: 1.2; /* Increase line height */
 }
