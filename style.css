@@ -55,3 +55,24 @@ body {
     list-style-type: disc;
   }
   
+  .flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child {
+    flex: 0 0 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #f2f2f2;
+  }
+  
