@@ -3,27 +3,55 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
   }
-  
-  .container {
+  .title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: red;
+    background-image: url('keys.jpg');
+        background-size: cover;
+        background-position: center;
+  }
+#title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    background-color: #2196f3;
+  }
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    background-color: bisque;
+  }
+  button {
+    padding: 1em;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
   }
   
-  .title {
-    font-size: 2rem;
-    color: red;
-    text-align: center;
-    margin-bottom: 1rem;
+  .flex-item {
+    flex: 1 0 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
   }
   
-  .paragraph {
-    font-size: 1rem;
-    text-align: justify;
-    padding: 1rem;
-    background-color: white;
+  ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    list-style-type: disc;
   }
   
